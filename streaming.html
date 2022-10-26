@@ -1,0 +1,110 @@
+<html>
+   <head>
+      <title>Streaming</title>
+      <meta charset="utf-8">
+   </head>
+   <style>
+        body
+         {
+            background-image:url("./streaming.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;        
+      
+         }
+       h1
+         {
+            font-size:40px;
+            color: white;
+            filter: brightness(100.0);
+            filter: drop-shadow(3px 8px black);
+            
+            font-family:verdana;
+            margin-left:50px;
+            margin-top:-20px;
+            margin-bottom: 80px;
+            
+         }
+         div {
+            width:350px;
+            height:400px;
+            margin-top: 70px;
+            
+            padding-top: 70px;
+            
+           
+            box-shadow: 2px 5px 10px rgb(0, 0, 0);
+            border-top-left-radius: 30px;  
+            border-bottom-right-radius: 30px;     
+            background-color: rgba(0, 0, 0, 0.493);
+            background-position: 10px;
+            position: relative;
+            left:50px;
+            padding-left: 20px;
+            padding-bottom:0px;
+            float:left;
+         }
+
+         b
+          {
+            font-size: 20px;
+            font-family:monospace;
+            color: whitesmoke;
+            line-height:35px;
+
+          }
+          input
+          {
+            font-size:15px;
+            background-color:black;
+            color: white;
+            border-style: solid;
+            border-color: rgb(255, 250, 250);
+          }
+          #botão_cadastro
+    {
+        font-family: arial;
+        font-size: 14px;
+        color: white;
+        background-color:rgba(0, 0, 0, 0);
+        filter: brightness(1.0);
+        text-transform: uppercase;
+        font-weight: 700;
+        border:solid;
+        padding:5px;
+        position:relative;
+        cursor:pointer;
+        display: inline-block;
+        
+        color:whitesmoke;
+        box-shadow:0 5px 0 white;
+        left: -1px;
+        top: 15px;
+
+    }
+   </style>
+   
+   <body>
+        
+        <div>
+        <h1>Streaming</h1> 
+         <b>Nome:</b><br><input type="name"/><br>
+        <b>Data de Lançamento:</b><br><input type="date"/><br>
+        <a href="index.html"><button id="botão_cadastro">Confirmar</button></a>
+       </div>
+   </body>
+   <script>
+      var cadastro = window.document.getElementById('botão_cadastro')
+      
+      cadastro.addEventListener('mouseenter',entrar)
+      cadastro.addEventListener('mouseout',sair)
+
+      function entrar(){
+      cadastro.innerHTML='Cadastrar Streaming'
+      cadastro.style.background='red'
+      }
+      function sair(){
+        cadastro.innerText='Confirmar'
+        cadastro.style.background='none'
+      }
+      </script>
+</html>

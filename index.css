@@ -1,0 +1,229 @@
+    body
+    {
+        background-color:black;
+        background-image: url("./wp3614492-star-wars-4k-wallpapers.jpg");
+        background-repeat: no-repeat;
+        background-position:right 0;
+        background-size:cover;
+    }
+    
+    .titulo
+    {
+        color: whitesmoke;
+        text-align: center;
+        font-size: 80px;
+        font-family: "Audiowide", sans-serif;
+        margin-top: 30px;
+       
+        margin-left:500px;
+        margin-right:500px;
+    }
+    
+    p
+    {
+        color: whitesmoke;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 25px;
+        font-family: "Audiowide", sans-serif;
+    }
+    #botão_login
+    {
+        font-family:verdana;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 700;
+        border:solid;
+        padding:5px;
+        position:relative;
+        cursor:pointer;
+        display: inline-block;
+        background-image:url("./107763.jpg");
+        color:whitesmoke;
+        box-shadow:0 5px 0 white;
+        left: 10px;
+        top: -150px;
+        display: inline-block;
+    }
+    
+    .botão_cadastro
+    {
+        font-family:verdana;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 700;
+        border:solid;
+        padding:5px;
+        position:relative;
+        cursor:pointer;
+        display: inline-block;
+        background-image:url("./107763.jpg");
+        color: ghostwhite;
+        box-shadow:0 5px 0 white;
+        left:20px;
+        top:-150px;
+        transition: filter 0.6s;
+    }
+    .botão_cadastro2: hover
+    {
+        background: blue;
+        color:#fff;
+        box-shadow:0 5px 0 black;
+        left:20px;
+        top:-145px;
+        filter: brightness(5.00);
+        filter: opacity(30%);
+        display: inline-block;
+    }
+    .botão_cadastro2:active
+    {
+        position:relative;
+        top: 5px;
+        box-shadow:none;
+        left:20px;
+        top:-145px;
+        display: inline-block;
+    }
+    .quadrado1
+    {
+        width:150px;
+        height:150px;
+        background-color:red;
+        border-radius: 70px;
+        position: relative;
+        right: 1000px;
+        float:right;
+        margin-top: 200px;
+        background-image: url("./img/batman.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:280px;
+    }
+    .botão_menu
+    {
+        font-weight: 500;
+        color: white;
+        font-family: "Audiowide", sans-serif;
+        border-color: transparent;
+        border-radius: 70px;
+        background:transparent;
+        position: center;
+        font-size:30px;
+        cursor: pointer;
+        transition: filter 0.4s;
+        box-shadow: 0px, 5px, 5px, white;
+    }
+    .botão_menu:hover
+    {
+        filter: brightness(5.00);
+        filter: opacity(30%);
+
+    }
+    .quadrado2
+    {
+        width:150px;
+        height:150px;
+        background-color: red;
+        position: relative;
+        right:650px;
+        float:right;
+        border-radius: 70px;
+        margin-top: 200px;
+        background-image: url("./img/sonic.jpg");
+        background-size:300px;
+        background-position: left;
+        background-repeat: no-repeat;
+        background-position:center;
+    } 
+    #botão_assistir
+    {
+            
+        font-weight: 500;
+        color: white;
+        border-color: transparent;
+        border-radius: 70px;
+        background:transparent;
+        position: center;
+        font-family: "Audiowide", sans-serif;
+        margin-top:-10px;
+        font-size:30px;
+        cursor: pointer;
+        transition: filter 0.6s;
+    }
+    #botão_assistir:hover
+    {
+        filter: brightness(5.0);
+        filter: opacity(30%);
+    }
+    .quadrado3
+    {
+        width:150px;
+        height:150px;
+        background-color: red;
+        position: relative;
+        right:300px;
+        float:right;
+        border-radius: 70px;
+        margin-top: 200px;
+        background-image: url("./img/pennywise2.jpg");
+        background-size: 270px;
+        background-position: center;
+        background-repeat: no-repeat;
+    } 
+    .quadrado4
+    {
+        width:150px;
+        height:150px;
+        background-color: red;
+        position: relative;
+        right:-50px;
+        float:right;
+        border-radius: 70px;
+        margin-top: 200px;
+        background-image: url("./img/godzillavskong.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:270px;
+    }
+    .rec
+    {
+        color:whitesmoke;
+        text-align: center;
+        margin-top: 55px;
+        font-size: 10px;
+    }
+    #botão_rec
+    {
+        font-weight: 500;
+        color: white;
+        border-color: transparent;
+        border-radius: 70px;
+        margin-left:-10px;
+        margin-top: -6px;
+        font-family: "Audiowide", sans-serif;
+        background:transparent;
+        position:center;
+        font-size:25px;
+        cursor: pointer;
+        transition: filter 0.4s;
+    }
+    #botão_rec:hover
+    {
+        filter: brightness(5.0);
+        filter: opacity(30%);
+    }
+    .quadrado5
+    {
+        width:150px;
+        height:150px;
+        background-color: red;
+        position: relative;
+        right:-400px;
+        float:right;
+        border-radius: 70px;
+        margin-top: 200px;
+        background-image: url("./img/jurassic-world_dominion.jpg");
+        background-repeat: no-repeat;
+        background-size: 230px;
+        background-position: center;
+     }

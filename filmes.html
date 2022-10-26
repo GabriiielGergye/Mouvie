@@ -1,0 +1,107 @@
+<html>
+   <head>
+      <title>Filmes</title>
+      <meta charset="utf-8">
+      <style> 
+         body
+         {
+          
+            background-image:url("./sssssss-aaaaaaaaaaa-ddddddddd-fffffffff-rrrrrrr.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size:1400px;         }
+         div
+         {
+            width:250px;
+            height:550px;
+            margin-top: 10px;
+            padding-bottom: 200px;
+            background-color:rgba(255, 255, 255, 0.473);
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            box-shadow: 2px 2px 2px white;
+            
+            background-position: 10px;
+
+            position: relative;
+            left:50px;
+            padding-left: 20px;
+            padding-bottom: 20px;
+            float:left;
+         }
+         h1
+         {
+            font-size:40px;
+            color: black;
+            filter: brightness(100.0);
+            filter: drop-shadow(3px 8px rgb(88, 81, 81));
+            font-family:verdana;
+            margin-left:-5px;
+            margin-top: 20px;
+            
+         }
+         b
+         {
+            font-size: 20px;
+            font-family:monospace;
+            color:black;
+            line-height:45px;
+            margin-top: 30px;
+
+
+         }
+         input
+         {
+            font-size:15px;
+            background-color: white;
+            color: black;
+         }
+
+          #botão_cadastro
+    {
+        font-family: arial;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 700;
+        border:solid;
+        padding:5px;
+        position:relative;
+        cursor:pointer;
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.418);
+        color:whitesmoke;
+        box-shadow:0 5px 0 rgb(15, 15, 15);
+        left: -1px;
+        top: 15px;
+    }
+      </style>
+
+   </head>
+      <body>
+         
+        <div>
+        <h1>Cadastrar Filmes</h1>
+          <b>Nome:</b><br><input type="name"/><br>
+          <b>Sinopse:</b><br><input type="text+name"/><br>
+          <b>Elenco:</b><br><input type="text"/><br>
+          <b>Lançamento:</b><br><input type="date"/><br>
+          <b>Nota de aprovação:</b><br><input type="number"/><br>
+          <a href="diretor.html"><button id="botão_cadastro">Confirmar</button></a>
+         </div>
+         <script>
+            var cadastro = window.document.getElementById('botão_cadastro')
+            
+            cadastro.addEventListener('mouseenter',entrar)
+            cadastro.addEventListener('mouseout',sair)
+    
+            function entrar(){
+            cadastro.innerHTML='Cadastrar Filme'
+            cadastro.style.background='red'
+            }
+            function sair(){
+              cadastro.innerText='Confirmar'
+              cadastro.style.background='black'
+            }
+            </script>
+      </body>
+</html>

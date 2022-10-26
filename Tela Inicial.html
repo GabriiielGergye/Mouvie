@@ -1,0 +1,43 @@
+ <html>
+    <head>
+          <title>index</title>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+          <link rel="stylesheet" href="index.css">
+   </head>
+      <header>
+            <h1 class="titulo">MOUVIES<h1>
+            <a href="login.html"><button id="botão_login">Login</button></a>
+            <a href="cadastro.html"><button class="botão_cadastro botão_cadastro2">Cadastrar</button></a>
+      </header>
+      <body>
+         <div class="quadrado1"><p><button class= "botão_menu">Filmes</button></p></div>
+         <div class="quadrado2"><p><button id= "botão_assistir">Assistir Agora</button></p></div>
+         <div class="quadrado3"><p><button class= "botão_menu">Gêneros</button></p></div>
+         <div class="quadrado4"><p><button id="botão_rec">Recomen<br>dados</button></p></div>
+         <div class="quadrado5"><p><button class= "botão_menu">Tarefas</button></p></div>
+
+         <script>
+            var a= window.document.getElementById('botão_login')
+            
+            a.addEventListener('mouseenter', entrar)
+            a.addEventListener('mouseout', sair)
+            
+            function entrar(){
+                  a.innerText= 'Logar'
+                  a.style.background= 'red'
+            }
+            function sair(){
+                  a.innerText='Login'
+                  a.style.background= 'black'
+
+            }
+         </script>
+      </body>
+</html>
+ 
+         
+
+
+         
+         
+         

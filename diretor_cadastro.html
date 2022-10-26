@@ -1,0 +1,166 @@
+<html>
+   <head>
+      <title>Diretor</title>
+      <meta charset="utf-8">
+      <style type="text/css">
+          body
+         {
+            background-color: black;
+            background-image: url("./sirisvisual-IcwAKUhNGXs-unsplash.jpg");
+            background-repeat: no-repeat;
+            background-position:center;
+            background-size:cover;
+
+          }
+
+       div
+          {
+            width:230px;
+            height:300px;
+            margin-top: 10px;
+            box-shadow: 2px 5px 10px black;
+            border-top-left-radius: 30px;  
+            border-bottom-right-radius: 30px;     
+            background-color: rgba(0, 0, 0, 0.493);
+           
+
+      
+           
+            
+           background-position: 10px;
+
+            position: relative;
+            left:50px;
+            padding-left: 20px;
+            padding-right:100px
+            padding-bottom:0px;
+            float:left;
+            
+          }
+          
+
+          
+          header{
+            font-size:30px;
+            
+            border-color:transparent;
+            font-family:verdana;
+            margin-top: -40px;
+            margin-left:66px;
+            margin-bottom: 10px;
+            padding-bottom:-10px;
+            display: flex;
+            align-items:center;
+            justify-content: space-between;
+
+          }
+          #diretor
+          {
+            color: white;
+            font-size: 100px;
+            filter: brightness(100.0);
+            filter: drop-shadow(3px 3px black);
+            margin-top: 50px;
+          }
+          .logo{
+            font-weight:20;
+            color: white;
+            font-family: "Audiowide", sans-serif;
+            background:transparent;
+            margin-right: 40px;
+            border-color:transparent;
+      
+            position: center;
+            font-size:30px;
+            cursor: pointer;
+            }
+          b
+          {
+            font-size: 20px;
+            font-family:monospace;
+            color: whitesmoke;
+            line-height:35px;
+
+          }
+
+          input
+          {
+            font-size:15px;
+            
+            
+          }
+
+           #botão_cadastro
+    {
+        font-family: arial;
+        font-size: 14px;
+        color: white;
+        background-color:rgba(0, 0, 0, 0);
+        filter: brightness(1.0);
+        text-transform: uppercase;
+        font-weight: 700;
+        border:solid;
+        padding:5px;
+        position:relative;
+        cursor:pointer;
+        display: inline-block;
+        
+        color:whitesmoke;
+        box-shadow:0 5px 0 white;
+        left: -1px;
+        top: 15px;
+
+    }
+    
+    .botão_cadastro2: hover
+    {
+        background: blue;
+        box-shadow:0 5px 0 blue;
+        left:-1px;
+        top:20px;
+        display: inline-block;
+    }
+    .botão_cadastro2:active
+    {
+        position:relative;
+        top: 5px;
+        box-shadow:none;
+        left:-1px;
+        top:20px;
+     
+        
+    }
+      </style>
+     
+   </head>
+      <header>
+        <h1 id="diretor">Diretor</h1> 
+        <h1><button class="logo">MOUVIES</button></h1>
+      </header>
+      <body>
+        <div>
+          <b>Nome:</b><br><input type="name"/> <br>
+          <b>Data de Nascimento:<br></b><input type="date"/><br>
+          <b>Nacionalidade:</b><br><input type="text"/><br>
+          <b>Filmes:</b><br><input type="text"/><br>
+          <a href="diretor.html"><button id="botão_cadastro">Confirmar</button></a>
+        </div>
+        <script>
+          var cadastro = window.document.getElementById('botão_cadastro')
+          
+          cadastro.addEventListener('mouseenter',entrar)
+          cadastro.addEventListener('mouseout',sair)
+  
+          function entrar(){
+          cadastro.innerHTML='Cadastrar Diretor'
+          cadastro.style.background='red'
+          }
+          function sair(){
+            cadastro.innerText='Confirmar'
+            cadastro.style.background='none'
+          }
+          </script>
+        </body>
+</html>
+          
+        
