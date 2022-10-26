@@ -1,62 +1,43 @@
 <html>
-   <head> 
-        <title>Tarefa</title>
+    <head>
+          <title>index</title>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+          <link rel="stylesheet" href="index.css">
    </head>
+      <header>
+            <h1 class="titulo">MOUVIES<h1>
+            <a href="login.html"><button id="botão_login">Login</button></a>
+            <a href="cadastro.html"><button class="botão_cadastro botão_cadastro2">Cadastrar</button></a>
+      </header>
       <body>
-        <h1>Login</h1>
-          <li>Nome:</li><input type="name"/>
-          <li>Email:</li><input type="email"/>
-          <li>Senha:</li><input type="text+number"/>
-          
-          <hr>
+         <div class="quadrado1"><p><button class= "botão_menu">Filmes</button></p></div>
+         <div class="quadrado2"><p><button id= "botão_assistir">Assistir Agora</button></p></div>
+         <div class="quadrado3"><p><button class= "botão_menu">Gêneros</button></p></div>
+         <div class="quadrado4"><p><button id="botão_rec">Recomen<br>dados</button></p></div>
+         <div class="quadrado5"><p><button class= "botão_menu">Tarefas</button></p></div>
 
-        <h1>Meus Filmes</h1>
-         <ri>Digite um nome de um filme:</ri><input type="text+number"/>
-          <h3>Sobre o filme:</h3>
-           <!--poster do filme-->
-           <li>Sinopse:</li> 
-           <a href="endereço"><!--endereço da sinopse--></a>
-           <li>Diretor:</li> 
-           <li>Elenco:</li> 
-           <li>Bilheteria:</li> 
-           <li>Nota de aprovação:</li> 
-           <li>Data de Lançamento:</li> 
-           <li>Trailer:</li>
-           <iframe width="420" height="345"
-        src="https://www.youtube.com/embed/tgbNymZ7vqY">
-           </iframe>
-        <hr>
-        
-        <h1>Assistir Agora</h1>
-        <ri>O que você quer assistir?: </ri><input type="text+number"/> </br>
-        Este conteudo esta disponivel em:</br>
-        <!--Streaming em que o filme ou serie está disponivel-->
-        <a href="youtube"><button>Assistir filme</button></a>
-        <hr>
-        
-        <h1>Gêneros:</h1>
-        <ri>Selecione o genêro do filme ou serie:</ri> </br>
-        <input type="checkbox"/> Ação</br>
-        <input type="checkbox"/> Aventura</br>
-        <input type="checkbox"/> Suspense</br>
-        <input type="checkbox"/> Animação</br>
-        <input type="checkbox"/> Romance</br>
-        <input type="checkbox"/> Drama</br>
-  
-        <h3>Recomendados:</h3>
-          
-         
+         <script>
+            var a= window.document.getElementById('botão_login')
             
-        <h1>Tarefas</h1>
-        <h3>Objetivos da Semana:</h3>
-         <li>Assista a esses três filmes de terror nessa semana:</li>
-         <input type="checkbox"/> Invocação do Mal</br>
-         <input type="checkbox"/> O Homem nas Trevas</br>
-         <input type="checkbox"/> A Freira
-          
+            a.addEventListener('mouseenter', entrar)
+            a.addEventListener('mouseout', sair)
+            
+            function entrar(){
+                  a.innerText= 'Logar'
+                  a.style.background= 'red'
+            }
+            function sair(){
+                  a.innerText='Login'
+                  a.style.background= 'black'
 
-        
-
-    
-        </body>
+            }
+         </script>
+      </body>
 </html>
+ 
+         
+
+
+         
+         
+         
